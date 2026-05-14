@@ -53,6 +53,21 @@ El notebook realiza lo siguiente:
 - No modifiquen el notebook sin probar todas las celdas.
 - Añadan notas o comentarios en el notebook para explicar qué decidieron cambiar y por qué.
 
+## Ejemplos de experimentos
+
+Estas son algunas pruebas útiles para entender mejor el modelo y comparar estrategias:
+
+1. **Comparar publicidad alta vs baja**
+   - Fijar calidad alta y cambiar sólo publicidad para ver cómo cambia el beneficio.
+2. **Probar menos empleados en preparación**
+   - Mantener empleados de pedidos suficientes y reducir empleados de preparación para medir el impacto en el beneficio.
+3. **Variar lugares de espera**
+   - Evaluar si conviene pagar por 0, 5 u 10 lugares de espera según la saturación del sector de pedidos.
+4. **Cambiar el ranking de los demás grupos**
+   - Ajustar la generación aleatoria de decisiones para simular grupos más agresivos o más conservadores.
+5. **Aumentar el número de simulaciones**
+   - Subir el número de repeticiones en la simulación para obtener resultados más estables.
+
 ## Objetivo
 
 Encontrar la mejor situación operativa para maximizar el beneficio en la primera ronda, teniendo en cuenta que el ranking de imagen no se utiliza en la ronda inicial.
